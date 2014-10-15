@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="myStruts2" location="179,10" size="525,315">
+    <action name="login" location="310,57" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="welcome.jsp" />
+      </result>
+    </action>
+    <action name="delete" location="310,232" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="deletesuccess.jsp" />
+      </result>
+    </action>
+    <action name="author" location="65,232" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="author.jsp" />
+      </result>
+    </action>
+    <action name="update" location="65,127" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="updatesuccess.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="welcome.jsp" path="/welcome.jsp" location="759,30" size="150,55" />
+  <webResource name="deletesuccess.jsp" path="/deletesuccess.jsp" location="744,205" size="150,55" />
+  <webResource name="author.jsp" path="/author.jsp" location="269,380" size="150,55" />
+  <webResource name="updatesuccess.jsp" path="updatesuccess.jsp" location="9,100" size="150,55" />
+</Struts2Diagram>
+
