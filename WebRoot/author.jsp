@@ -24,7 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    this is author's data that you want<br>
+    this is author's data <br>
   	id is <s:property value="author.AuthorId"/>
     ,name is <s:property value="author.Name"/>
     ,age is <s:property value="author.Age"/>

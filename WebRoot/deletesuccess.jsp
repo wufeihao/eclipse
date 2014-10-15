@@ -23,6 +23,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    delete success! <br>
+    delete success!! <br>
   </body>
 </html>
